@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="/main-page/styles/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="/main-page/styles/main.scss">
+  <link rel="stylesheet" href="/main-page/styles/dist/main.css">
+  <link rel="stylesheet" href="/main-page/styles/slider-style.css">
+  <link rel="stylesheet" href="/main-page/styles/lightslider.css">
+  <script src="/main-page/js/JQuery3.3.1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <title>SkateShop</title>
+</head>
+<body onload="document.body.className += ' loaded';" class="fadein">
+  <div class="mn-home-pg">
+    <div id="sticky-nav"class="sticky-nav-class" >
+      <nav class="navbar-items-place-left">
+        <div class="page-cont-burger">
+          <div class= "line1"> </div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+       <div class="logo">
+         <h4>Sk8</h4>
+         </div>
+            <ul class="navlinks-left">
+              <li>
+                <a href="/main-page/html/home.html" id="active">Home</a>
+              </li>
+              <li class="menu-option">
+                 <a href="/shop-page/html/shop.html" class="menu">Shop</a>
+                 <div class="dropdown-content">
+                  <a href="/shop-page/html/shoes.html">Shoes</a>
+                  <a href="/shop-page/html/boards.html">Boards</a>
+                  <a href="/shop-page/html/n1.html">N! Collection</a>
+                </div>
+              </li>
+            </ul>
+            <div class="navbar-items-place-right">
+              <li class="right">
+                <a href="/account-page/html/acc.html">Account</a>
+              </li>
+              <li>
+                <div class="dropdown">
+                 <a href="#" class="right" onclick="myFunction()" class="dropbtn" >Search</a>
+                  <div id="myDropdown" class="dropdown-content">
+                    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+                    <a href="/shop-page/html/shoes.html">Shoes</a>
+                  <a href="/shop-page/html/boards.html">Boards</a>
+                  <a href="/shop-page/html/n1.html">N! Collection</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#" class="right">Cart( 0 )</a>
+              </li>
+            </div>
+            <div class="mobile-navbar-items-left">
+              <i class="fas fa-shopping-bag"></i>
+              <i class="fas fa-user"></i>
+            </div>
+       </nav>
+    </div>
+  </div>
+  <div class="backgorund-container-hero">
+    <video autoplay muted loop 
+    class="background-video" 
+    src="/main-page/background/giphy.mp4">
+   </video>
+  </div>
+  <div class="full-article-content">
+    <div class="ad-text-cont">
+      <div class="content" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+        <h1>N!kko</h1>
+        <p>N! Collection 2021</p>
+        <!-- Use a button to pause/play the video with JavaScript -->
+        <div class="wrapper-inner-tab-backgrounds-first"><div class="sim-button button10"><a href="/shop-page/html/shop.html"><span>Shop</span></a></div></div>
+      </div>
+    </div>
+  
+      <div class="mn-page-container">
+        <h1>RESTOCKED</h1>
+        <h4>N!KKO CHAMP COLLECTION</h4>
+        <hr>
+       </div>
+
+       <div class="container" id="content-id">
+        <ul id="autoWidth" class="cs-hidden">     
+      <li class="item-a">
+        <div class="box" id="box1">
+        </div>
+        </li>
+
+     
+      <li class="item-a">
+        <div class="box" id="box2">
+        </div>
+      </li>
+        
+      <li class="item-a">
+        <div class="box" id="box3">
+        </div>
+        </li>
+  
+      <li class="item-a">    
+        <div class="box" id="box4">      
+        </div>
+        </li>
+       
+      <li class="item-a">
+        <div class="box" id="box5">
+        </div>
+        </li>
+       
+      <li class="item-a">
+        <div class="box" id="box6">
+        </div>
+        </li>
+      </ul>
+      </div>
+      <div class="wrapper-inner-tab-backgrounds-first"><div class="sim-button button8"><span><a href="/shop-page/html/shop.html">View All Products</a></span></div></div>
+      
+      <div class="ad-wrapper-background">
+          <img id="wrapper-ad" src="/main-page/background/background2.jpg" alt="">
+         <div class="ad-txt">
+          <h4 style="margin-top: 25%;">N! COLLECTION</h4>
+         </div>
+      </div>
+      
+      
+      <footer class="footer-wrapper">
+        
+        <div class="wrapper-text1">
+          <h4>ABOUT N!KKO</h4>
+          <p class="wrapper-p">N!kko (Nikolay Pleshkov) is the Two Time Consecutive Blockbuster Video Game Champion (2018-2019). He is known for his iconic 6’8 frame, 37 inch vertical leap, and the Bullet Proof Mullet aka the Black Steel that runs down his spine. His sunglasses are Google Prototype Scopes with built-in LCD LED 1080p 3D Sony technology. His upper lip is adorned by the Ethiopian Poisonous Caterpillar aka Slick Daddy. He rules the Arena with violence, speed, and momentum; and his reign has just begun.</p>
+         
+          <div class="ad-social-links">
+            <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#instagram" class="margin-left"><i class="fab fa-instagram"></i></a>
+            <a href="#twitter" class="margin-left"><i class="fab fa-twitter"></i></a>
+            <a href="#github" class="margin-left"><i class="fab fa-github"></i></a>
+          </div>
+
+          <div class="bottom-footer">
+            <p>© SKATESHOP
+              Powered by Nikolay Pleshkov
+              </p>
+          </div>
+        </div>
+
+        <div class="footer-menu">
+          <h4 class="header-name">FOOTER MENU</h4>
+          <ul class="footer-menu-li">
+            <li><a href="#">Search</a></li>
+            <li><a href="#">2020 Collection</a></li>
+            <li><a href="#">Size Charts</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-email-menu">
+          <h4>NEWSLETTER</h4>
+          <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+          <div class="footer-form">
+            <form action="#">
+              <input type="email" name="" placeholder="Enter your email address" id="emailinput">
+              <div class="wrapper-inner-tab-backgrounds-first"><div class="sim-button button8" id="btn8"><span>Subscribe</span></div></div>
+            </form>
+          </div>
+        </div>
+       
+      </footer>
+      <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        function filterFunction() {
+          var input, filter, ul, li, a, i;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          div = document.getElementById("myDropdown");
+          a = div.getElementsByTagName("a");
+          for (i = 0; i < a.length; i++) {
+            txtValue = a[i].textContent || a[i].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              a[i].style.display = "";
+            } else {
+              a[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+      <script src="/main-page/js/lightslider.js"></script>
+      <script src="/main-page/js/script.js"></script>
+    <script src="/main-page/js/navbar.js"></script>
+   <!--<script src="/main-page/js/app.js"></script>--> 
+    <script src="/main-page/js/sidebar.js"></script>
+</body>
+</html>
