@@ -1,0 +1,8 @@
+.image-container{
+    background-image: url('/shop-page/background/dgk-3798.jpg');
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    filter: brightness(0.7);
+   position: fixed;
+}
